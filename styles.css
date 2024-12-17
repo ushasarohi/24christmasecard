@@ -6,8 +6,17 @@
     margin: 0;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
-    background-color: #000022;
+    background-color: #00584d;
+    background-image: url('https://t4.ftcdn.net/jpg/10/53/27/33/360_F_1053273322_fKrXu08jMdd9C3G409xrSI5yiUmbaetD.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .card {
@@ -58,7 +67,7 @@ body {
 }
 
 .front {
-    background-color: #BE0F04;
+    background-color: #04bea5;
     z-index: 1;
 }
 
@@ -140,8 +149,8 @@ body {
 .back {
     background: linear-gradient(
         to right,
-        #BE0F04 50%,
-        #7d0b03
+        #04bea5 50%,
+        #037d73
     );
     transform: rotateY(180deg);
 }
@@ -149,15 +158,15 @@ body {
 .inside {
     background: linear-gradient(
         to left,
-        #BE0F04 50%,
-        #7d0b03
+        #04bea5 50%,
+        #037d73
     );
     font-family: 'Parisienne', cursive;
     color: white;
-    font-size: 70px;
+    font-size: 32px;
     text-align: center;
     line-height: 100px;
-    padding: 90px 10px;
+    padding: 20px 5px;
     box-shadow: 25px 25px 35px rgba(0, 0, 0, 0.3);
     transition: 2s;
 }
